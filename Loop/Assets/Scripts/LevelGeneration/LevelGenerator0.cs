@@ -17,6 +17,7 @@ public class LevelGenerator0 : MapGenerator
         ClearMap();
         base.RegenMap();
         SecondPass();
+        Debug.Log("Level has successfully been generated!");
     }
 
     protected void SecondPass()

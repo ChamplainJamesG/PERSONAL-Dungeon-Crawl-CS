@@ -282,7 +282,8 @@ public class MapGenerator : MonoBehaviour
     protected virtual void ClearMap()
     {
         _finalTiles.Clear();
-        _map.Clear();
+        if(_map != null)
+            _map.Clear();
     }
 
     public GeneratedLevelMap GetMap()
