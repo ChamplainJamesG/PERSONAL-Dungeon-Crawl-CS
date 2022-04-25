@@ -1,0 +1,12 @@
+<root>
+<player_abilities>
+<ability id="0000" name="Test ability" potency="10" cost="0" desc="A very simple test ability for testing purposes. Deals DAMAGE_RANGE damage" type="Attack" targets="1"/>
+<ability id="0001" name="Strike" potency="5" cost="0" desc="Make a simple strike with your weapon. Deals DAMAGE_RANGE damage" type="Attack" targets="1"/>
+<ability id="0002" name="Heal" potency="5" cost="0" desc="Does a simple heal. Heals DAMAGE_RANGE health" type="Attack" targets="1"/>
+<ability id="0003" name="Fireball" potency="15" cost="5" desc="Throw an exploding fireball. Deals DAMAGE_RANGE damage" type="Attack" targets="4"/>
+<ability id="0004" name="Swipe" potency="11" cost="3" desc="Make a wide swing with your weapon. Deals DAMAGE_RANGE damage" type="Attack" targets="4"/>
+</player_abilities>
+<monster_abilities>
+<ability id="1000" name="Test Monster Ability" potency="3" cost="1" desc="A Monster Ability." type="Attack" targets="1"/>
+</monster_abilities>
+</root>

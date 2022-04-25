@@ -1,0 +1,33 @@
+<root>
+<main_hand_templates>
+<template n="Sword" strweight="10" dexweight="7" conweight="4" intweight="5" wisweight="1" desc="A very cool sword" dam="10" rangeL="0.8" rangeR="1.2"/>
+<template n="Lance" strweight="10" dexweight="7" conweight="9" intweight="1" wisweight="2" desc="A very cool Lance" dam="10" rangeL="0.7" rangeR="1.3"/>
+</main_hand_templates>
+<armor_templates>
+<template n="Chestplate" strweight="8" dexweight="3" conweight="10" intweight="1" wisweight="7" desc="A very cool chestpiece" hard="5"/>
+<template n="Robe" strweight="2" dexweight="7" conweight="5" intweight="10" wisweight="9" desc="A very cool chestpiece" hard="2"/>
+</armor_templates>
+<tiers>
+<tier t="1" dist_pts_avg="5" dist_pts_lower="3" dist_pts_upper="7" tier_mod="1">
+<prefix p="Iron"/>
+<prefix p="Light"/>
+<prefix p="Gray"/>
+<prefix p="Trusty"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+</tier>
+<tier t="2" dist_pts_avg="6" dist_pts_lower="4" dist_pts_upper="8" tier_mod="1.3">
+<prefix p="Steel"/>
+<prefix p="Gnarled"/>
+<prefix p="Glinting"/>
+<prefix p="Tested"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+<suffix s="of Soldiers"/>
+</tier>
+</tiers>
+</root>

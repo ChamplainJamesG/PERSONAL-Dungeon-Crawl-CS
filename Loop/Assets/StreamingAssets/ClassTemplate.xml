@@ -1,0 +1,49 @@
+<root>
+<array a="8"/>
+<pts p="20"/>
+<gencap c="20"/>
+<template n="Test0">
+<set s0="PDPS">
+<weights s="5" d="3" v="4" i="2" w="2"/>
+<ability id="0001"/>
+<ability id="0001"/>
+<ability id="0001"/>
+<ability id="0001"/>
+<ability id="0001"/>
+</set>
+<set s0="HEALER">
+<weights s="1" d="3" v="3" i="4" w="5"/>
+<ability id="0001"/>
+<ability id="0001"/>
+<ability id="0001"/>
+<ability id="0001"/>
+<ability id="0001"/>
+</set>
+<set s0="MDPS">
+<weights s="1" d="4" v="3" i="5" w="3"/>
+<ability id="0002"/>
+<ability id="0002"/>
+<ability id="0002"/>
+<ability id="0002"/>
+<ability id="0002"/>
+</set>
+</template>
+<template n="Test1">
+<set s0="HEALER">
+<weights s="1" d="3" v="3" i="4" w="5"/>
+<ability id="0003"/>
+<ability id="0003"/>
+<ability id="0003"/>
+<ability id="0003"/>
+<ability id="0003"/>
+</set>
+<set s0="SUPPORT">
+<weights s="3" d="1" v="2" i="4" w="5"/>
+<ability id="0004"/>
+<ability id="0004"/>
+<ability id="0004"/>
+<ability id="0004"/>
+<ability id="0004"/>
+</set>
+</template>
+</root>
